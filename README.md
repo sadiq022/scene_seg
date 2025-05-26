@@ -78,4 +78,16 @@ Install everything with:
 ```bash
 pip install -r requirements.txt
 
+## Usage
+
+1. **Place your `.srt` subtitle file** (for example, `plan9.srt`) in your project directory.
+
+2. **Run the script** from the command line:
+   ```bash
+   python scenesage.py plan9.srt --model meta-llama/llama-3.3-8b-instruct:free --output scenes.json
+
+- The **first argument** is your subtitle file (required, positional).
+- `--model` (optional): sets which LLM to use (default: `meta-llama/llama-3.3-8b-instruct:free`).
+- `--output` (optional): sets the JSON file for saving the results (default: `scenes.json`).
+
 

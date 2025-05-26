@@ -77,6 +77,7 @@
 Install everything with:
 ```bash
 pip install -r requirements.txt
+```
 
 ## Usage
 
@@ -90,4 +91,21 @@ pip install -r requirements.txt
 - `--model` (optional): sets which LLM to use (default: `meta-llama/llama-3.3-8b-instruct:free`).
 - `--output` (optional): sets the JSON file for saving the results (default: `scenes.json`).
 
+## Output
 
+The analysis for each scene will be saved in your output file (for example, `scenes.json`) as a list of JSON objects—one for each scene.
+
+## Testing
+
+Automated tests are included to ensure the reliability and correctness of this project.
+Unit tests are provided in `test_scenesage.py`.
+The tests cover:
+- Scene splitting from `.srt` subtitle files using `split_srt_into_scenes`
+- The scene analysis logic using `analyze_scene` (with LLM/API responses mocked)
+
+Temporary subtitle files are created for testing, so no extra files are needed.
+All tests use Python’s built-in `unittest` framework.
+
+**Run the test script** from the command line:
+```bash
+python test_scenesage.py

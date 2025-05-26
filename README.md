@@ -15,7 +15,7 @@
 First, **clone this repository** to your local machine:
 
 ```bash
-https://github.com/sadiq022/scene_seg.git
+git clone https://github.com/sadiq022/scene_seg.git
 cd scene_seg
 ```
 

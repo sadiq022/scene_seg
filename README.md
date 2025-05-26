@@ -10,6 +10,19 @@
 - **LLM-powered scene analysis:** Extracts summary, characters, mood, and cultural references using models like Meta Llama 3 or GPT-4o.
 - **Easy output:** Results saved as a JSON file for further use or study.
 
+## Installation
+
+First, **clone this repository** to your local machine:
+
+```bash
+git clone https://github.com/sadiq022/scene-sage.git
+cd scene-sage
+```
+
+Then, install all dependencies with: 
+```bash
+pip install -r requirements.txt
+```
 ---
 
 ## Requirements
@@ -69,20 +82,6 @@
 - `pysrt`
 - `openai`
 - `python-dotenv`
-
-## Installation
-
-First, **clone this repository** to your local machine:
-
-```bash
-git clone https://github.com/sadiq022/scene-sage.git
-cd scene-sage
-```
-
-Then, install all dependencies with: 
-```bash
-pip install -r requirements.txt
-```
 
 ## Usage
 

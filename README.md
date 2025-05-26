@@ -18,10 +18,6 @@
 - [OpenRouter](https://openrouter.ai/) API key (free to create)
 - A supported LLM model (Meta Llama 3.3 8B Instruct, GPT-4o, etc.)
 
-...
-
-## About API Keys (Tokens)
-
 ## How to Get an OpenRouter API Key
 
 1. **Sign Up or Log In**
@@ -74,7 +70,16 @@
 - `openai`
 - `python-dotenv`
 
-Install everything with:
+## Installation
+
+First, **clone this repository** to your local machine:
+
+```bash
+git clone https://github.com/sadiq022/scene-sage.git
+cd scene-sage
+```
+
+Then, install all dependencies with: 
 ```bash
 pip install -r requirements.txt
 ```

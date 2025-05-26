@@ -15,8 +15,8 @@
 First, **clone this repository** to your local machine:
 
 ```bash
-git clone https://github.com/sadiq022/scene-sage.git
-cd scene-sage
+https://github.com/sadiq022/scene_seg.git
+cd scene_seg
 ```
 
 Then, install all dependencies with: 

@@ -150,7 +150,7 @@ if __name__ == "__main__":
 
     # --- 3. Analyze each scene ---
     analyzed_scenes = []
-    for i, scene in enumerate(scenes[:1]):
+    for i, scene in enumerate(scenes):
         print(f"\nAnalyzing Scene {i+1}/{len(scenes)} ({scene['start']} - {scene['end']})...")
         analysis = analyze_scene(scene['transcript'], client, args.model)
         analyzed_scene = {

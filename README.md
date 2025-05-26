@@ -54,7 +54,7 @@ pip install -r requirements.txt
 
 4. **Save Your API Key Securely**
    - **Recommended:**  
-     Create a file named `.env` in your project folder (do NOT share or commit this file).
+     Create a file named `.env` in your project folder (named as scene_seg).
      ```
      OPENROUTER_API_KEY=YourActualApiKeyHere
      ```
